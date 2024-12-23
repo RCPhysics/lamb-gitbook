@@ -31,3 +31,11 @@ gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
+
+gem "jekyll-readme-index", "= 0.3.0"
+
+gem "jemoji", "~> 0.13.0"
+gem "ostruct", "~> 0.6.1"
+gem "logger", "~> 1.6"
+gem "csv", "~> 3.3"
+gem "base64", "~> 0.2.0"

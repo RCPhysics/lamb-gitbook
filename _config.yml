@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: LAMB Procedures and Documents
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -34,6 +34,28 @@ github_username:  jekyll
 remote_theme: sighingnow/jekyll-gitbook
 plugins:
   - jekyll-feed
+  - jekyll-readme-index
+
+
+toc:
+    enabled: true
+    h_min: 1
+    h_max: 3
+
+collections:
+  pages:
+    output: true
+    sort_by: date
+    permalink: /:collection/:year-:month-:day-:title:output_ext
+  others:
+    output: true
+    sort_by: date
+    permalink: /:collection/:year-:month-:day-:title:output_ext
+
+ordered_collections:
+  - posts
+  - pages
+  - others
 
 # Exclude from processing.
 # The following items will not be processed, by default.
