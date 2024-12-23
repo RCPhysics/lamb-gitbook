@@ -36,6 +36,9 @@ plugins:
   - jekyll-feed
   - jekyll-readme-index
 
+baseurl: "/lamb-gitbook"
+production_url : http://rcphysics.github.io/lamb-gitbook
+BASE_PATH : http://rcphysics.com/lamb-gitbook
 
 toc:
     enabled: true
